@@ -1,10 +1,10 @@
-Qty,Component,Category,Price_USD,Store,Buy_Link,Notes
-1,Seeed XIAO ESP32-C6,Electronics,5.20,Seeed Studio,https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html,Main microcontroller with Wi-Fi 6 BLE Zigbee Thread and RISC-V
-1,BME680 Breakout Module,Electronics,22.60,Seeed Studio,https://www.seeedstudio.com/Air-Quality-Monitor-ESPHome-DIY-Kit-for-Home-Assistant-Solderless-Local-Custom.html,Temperature humidity pressure and gas sensor
-1,Waveshare 2.9 inch E-Paper Module V2 SSD1680,Electronics,21.99,Waveshare,https://www.waveshare.com/product/displays/e-paper/2.9inch-e-paper-module.htm,296×128 monochrome e-paper display with included 8-pin cable
-1,JST PH 2.0mm 8-Pin SMT Header,Electronics,1.50,Amazon,https://www.amazon.com/dp/B07QK9M4N2,Board-mounted connector
-1,JST PH 2.0mm 8-Pin Cable,Electronics,2.00,Amazon,https://www.amazon.com/dp/B08P5P9Y9D,Connects e-paper display to PCB
-4,M3 x 6mm Screw,Hardware,0.50,Amazon,https://www.amazon.com/dp/B08F7VQJ7L,Mounting screws
-4,M3 Standoff,Hardware,1.00,Amazon,https://www.amazon.com/dp/B07D7824SM,PCB/display spacers
-4,M3 Nut,Hardware,0.20,Amazon,https://www.amazon.com/dp/B07V3T9TH6,For non-threaded standoffs
-1,3D Printed Enclosure,Mechanical,5.00,Custom Print,N/A,PLA or PETG enclosure
+Qty,Component,Category,Price_USD,Buy_Link,Notes
+1,Seeed XIAO ESP32-C6,Electronics,5.20,https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html,Main microcontroller with Wi-Fi 6 BLE Zigbee Thread and RISC-V
+1,BME680 Breakout Module,Electronics,22.60,https://www.seeedstudio.com/Air-Quality-Monitor-ESPHome-DIY-Kit-for-Home-Assistant-Solderless-Local-Custom.html,Temperature humidity pressure and gas sensor
+1,Waveshare 2.9 inch E-Paper Module V2 SSD1680,Electronics,21.99,https://www.waveshare.com/product/displays/e-paper/2.9inch-e-paper-module.htm,296×128 monochrome e-paper display with included 8-pin cable
+1,JST PH 2.0mm 8-Pin SMT Header,Electronics,1.50,https://www.amazon.com/dp/B07QK9M4N2,Board-mounted connector
+1,JST PH 2.0mm 8-Pin Cable,Electronics,2.00,https://www.amazon.com/dp/B08P5P9Y9D,Connects e-paper display to PCB
+4,M3 x 6mm Screw,Hardware,0.50,https://www.amazon.com/dp/B08F7VQJ7L,Mounting screws
+4,M3 Standoff,Hardware,1.00,https://www.amazon.com/dp/B07D7824SM,PCB/display spacers
+4,M3 Nut,Hardware,0.20,https://www.amazon.com/dp/B07V3T9TH6,For non-threaded standoffs
+1,3D Printed Enclosure,Mechanical,5.00,N/A,PLA or PETG enclosure
