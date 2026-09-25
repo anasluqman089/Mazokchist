@@ -7,6 +7,8 @@ sensor measures temperature, humidity, pressure and gas resistance and sends
 the readings over I2C to the XIAO, which displays them on a Waveshare 2.9"
 e-Paper screen.
 
+Why the name is Mazokchist? It is just a msde up name no need to know the meaning.
+
 ## How it works
 
 - **BME680** — reads temperature, humidity, pressure and gas resistance, and
@@ -16,21 +18,25 @@ e-Paper screen.
   once a minute.
 
 ## Bill of Materials
-Electronics and mounting hardware only — PCB fabrication, wires, etc. not included.
 
-Qty	Part	Notes
-1	Seeed XIAO ESP32-C6	Main microcontroller
-1	BME680 breakout module	Temp / humidity / pressure / gas sensor, I2C; soldered directly to PCB traces
-1	Waveshare 2.9" e-Paper display (V2, SSD1680)	128x296, monochrome
-1	JST PH 2.0mm, 8-pin, SMT header	On-board connector (J1) for the e-paper cable
-1	JST PH 2.0mm, 8-pin cable/plug	Connects the e-paper display to the header above
+| Qty | Component                                    | Category    | Price (USD) | Buy Link                                                                                              | Notes                                                             |
+| --: | -------------------------------------------- | ----------- | ----------: | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+|   1 | Seeed XIAO ESP32-C6                          | Electronics |       $5.20 | [Seeed Studio](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html)                     | MCU |
+|   1 | BME680 Breakout Module                       | Electronics |      $13.99 | [Amazon](https://www.amazon.com/HiLetgo-Temperature-Precision-Environmental-Monitoring/dp/B0CDWXZNY7) | Enviromental Sensor |
+|   1 | Waveshare 2.9 inch E-Paper Module V2 SSD1680 | Electronics |      $21.99 | [Waveshare](https://www.waveshare.com/product/displays/e-paper/2.9inch-e-paper-module.htm)            | 296×128 monochrome e-paper display |
+|   1 | JST PH 2.0mm 8-Pin SMT Header                | Electronics |      ~$1.00 | —                                                                                                     | For the PCB                                                       |
+|   1 | JST PH 2.0mm 8-Pin Cable                     | Electronics |      ~$2.00 | —                                                                                                     | Connecting the PCB to the display                                 |
+|   4 | M3 × 20mm Screw                              | Hardware    |      ~$2.00 | —                                                                                                     | Securing the PCB                                                  |
+|   4 | M3 × 6mm Screw                               | Hardware    |      ~$2.00 | —                                                                                                     | Securing the case                                                 |
+|   4 | M3 Standoff                                  | Hardware    |      ~$1.00 | —                                                                                                     | PCB/display spacers                                               |
+|   1 | 3D Printed Enclosure                         | Mechanical  |      ~$5.00 | —                                                                                                     | PLA or PETG enclosure                                             |
 
-Screws / mounting hardware
+## Estimated Total
 
-Qty	Part	Notes
-4	M3 x 6mm screws	For mounting holes H1–H4
-4	M3 standoffs	Optional, to space the PCB off a case or base
-4	M3 nuts	Only needed if not using threaded standoffs
+**≈ $56.18 USD**
+
+> Prices are approximate and may vary depending on seller, quantity, shipping, taxes, and promotions.
+
 
 Check the mounting hole diameter on your PCB before ordering screws — M3 is assumed here but confirm it matches your board.
 
