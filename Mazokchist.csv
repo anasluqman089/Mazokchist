@@ -1,0 +1,4 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J1";"JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical";1;"Conn_01x08";;;
+2;"U1";"XIAO-ESP32-C6-DIP";1;"XIAO-ESP32-C6-SMD";;;
+3;"U2";"module_bme680";1;"module_bme680";;;
