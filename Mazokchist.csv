@@ -1,10 +1,10 @@
-Qty,Component,Category,Price_USD,Store,Buy_Link,Notes
-1,Seeed XIAO ESP32-C6,Electronics,5.20,Seeed Studio,https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html,Main microcontroller with Wi-Fi 6 BLE Zigbee Thread and RISC-V
-1,BME680 Breakout Module,Electronics,22.60,Seeed Studio,https://www.seeedstudio.com/Air-Quality-Monitor-ESPHome-DIY-Kit-for-Home-Assistant-Solderless-Local-Custom.html,Temperature humidity pressure and gas sensor
-1,Waveshare 2.9 inch E-Paper Display V2 SSD1680,Electronics,TBD,Waveshare,https://www.waveshare.com/2.9inch-e-paper.htm,128x296 monochrome e-paper display
-1,JST PH 2.0mm 8-Pin SMT Header,Electronics,TBD,Amazon,https://www.amazon.com/s?k=JST+PH+2.0mm+8+pin+SMT+header,On-board J1 connector for the e-paper cable
-1,JST PH 2.0mm 8-Pin Cable Plug,Electronics,TBD,Amazon,https://www.amazon.com/s?k=JST+PH+2.0mm+8+pin+cable,Connects the e-paper display to the JST header
+Qty,Component,Category,Price_USD,Buy_Link,Notes
+1,Seeed XIAO ESP32-C6,Electronics,5.20,https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html,Main microcontroller with Wi-Fi 6 BLE Zigbee Thread and RISC-V
+1,BME680 Breakout Module,Electronics,22.60,https://www.seeedstudio.com/Air-Quality-Monitor-ESPHome-DIY-Kit-for-Home-Assistant-Solderless-Local-Custom.html,Temperature humidity pressure and gas sensor
+1,Waveshare 2.9 inch E-Paper Display V2 SSD1680,Electronics,TBD,https://www.waveshare.com/2.9inch-e-paper.htm,128x296 monochrome e-paper display
+1,JST PH 2.0mm 8-Pin SMT Header,Electronics,TBD,https://www.amazon.com/s?k=JST+PH+2.0mm+8+pin+SMT+header,On-board J1 connector for the e-paper cable
+1,JST PH 2.0mm 8-Pin Cable Plug,Electronics,TBD,https://www.amazon.com/s?k=JST+PH+2.0mm+8+pin+cable,Connects the e-paper display to the JST header
 1,Custom PCB,Electronics,TBD,Custom Fabrication,,Fabricated from the KiCad project
-4,M3 x 6mm Screw,Hardware,TBD,Amazon,https://www.amazon.com/s?k=M3+x+6mm+screws,For mounting holes H1-H4
-4,M3 Standoff,Hardware,TBD,Amazon,https://www.amazon.com/s?k=M3+PCB+standoffs,Optional; spaces the PCB away from a case or mounting surface
-4,M3 Nut,Hardware,TBD,Amazon,https://www.amazon.com/s?k=M3+nuts,Required only when using non-threaded standoffs
+4,M3 x 6mm Screw,Hardware,TBD,https://www.amazon.com/s?k=M3+x+6mm+screws,For mounting holes H1-H4
+4,M3 Standoff,Hardware,TBD,https://www.amazon.com/s?k=M3+PCB+standoffs,Optional; spaces the PCB away from a case or mounting surface
+4,M3 Nut,Hardware,TBD,https://www.amazon.com/s?k=M3+nuts,Required only when using non-threaded standoffs
