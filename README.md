@@ -1,5 +1,7 @@
 # Mazokchist
 
+<img width="643" height="474" alt="image" src="https://github.com/user-attachments/assets/6ea0f9a1-52b6-47d9-acae-92721f125d2c" />
+
 *Hello Everyone!*
 
 What is Mazokchist you might ask? it is a small environmental monitor built around the Seeed XIAO ESP32-C6. A BME680
@@ -75,3 +77,20 @@ forces the module into I2C mode.
 5. Use Arduino IDE and download all the libraries
 6. Upload the code
 7. *Power it on!*
+
+## Images
+
+### Schematic
+
+<img width="744" height="576" alt="image" src="https://github.com/user-attachments/assets/89cd896f-4fc3-46e8-8e40-1a57a3e288e8" />
+
+### PCB
+
+<img width="819" height="394" alt="image" src="https://github.com/user-attachments/assets/e95df9b6-7515-476b-95fb-ace4e08764da" />
+
+### CAD
+
+<img width="704" height="449" alt="image" src="https://github.com/user-attachments/assets/988eea77-6ed5-4fa6-a16c-42afecd79051" />
+
+<img width="771" height="447" alt="image" src="https://github.com/user-attachments/assets/c8bf3c94-d085-44d4-83b1-1ad1621bb4be" />
+
