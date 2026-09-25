@@ -1,0 +1,10 @@
+Qty,Component,Category,Notes
+1,Seeed XIAO ESP32-C6,Electronics,Main microcontroller (Wi-Fi 6 / BLE / Zigbee / Thread, RISC-V)
+1,BME680 breakout module,Electronics,Temperature/humidity/pressure/gas sensor; soldered directly to PCB traces, no cable/connector needed
+1,Waveshare 2.9" e-Paper display (V2, SSD1680),Electronics,128x296 monochrome e-paper panel
+1,JST PH 2.0mm 8-pin SMT header,Electronics,On-board connector (J1) for the e-paper cable
+1,JST PH 2.0mm 8-pin cable/plug,Electronics,Connects the e-paper display to the JST header
+1,Custom PCB,Electronics,Fabricated from the KiCad project
+4,M3 x 6mm screw,Hardware,For mounting holes H1-H4
+4,M3 standoff,Hardware,Optional - spaces the PCB off a case or base
+4,M3 nut,Hardware,Only needed if not using threaded standoffs
