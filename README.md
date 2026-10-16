@@ -4,18 +4,19 @@
 
 *Hello Everyone!*
 
-What is Mazokchist you might ask? it is a small environmental monitor built around the Seeed XIAO ESP32-C6. A BME680
-sensor measures temperature, humidity, pressure and gas resistance and sends
-the readings over I2C to the XIAO, which displays them on a Waveshare 2.9"
+What is Mazokchist you might ask? it is a small environmental monitor built around the Seeed XIAO ESP32-C6, a e-ink diplay and a BME680
+
+The sensor measures temperature, humidity, pressure and gas quality and sends
+the readings over I2C to the XIAO, which displays them on a 2.9"
 e-Paper screen.
 
 Why the name is Mazokchist? It is just a msde up name no need to know the meaning.
 
 ## How it works
 
-- **BME680** — reads temperature, humidity, pressure and gas resistance, and
-  sends the data to the XIAO over I2C.
-- **XIAO ESP32-C6** — reads the sensor over I2C and drives the display over SPI.
+- **BME680** — reads temperature, humidity, pressure and gas quality then 
+  sends that data to the XIAO over I2C.
+- **XIAO ESP32-C6** — reads the sensor using I2C and drives the display using SPI.
 - **Waveshare 2.9" e-Paper** — shows the latest readings. The screen refreshes
   once a minute.
 
@@ -35,12 +36,7 @@ Why the name is Mazokchist? It is just a msde up name no need to know the meanin
 
 ## Estimated Total
 
-**≈ $56.18 USD**
-
-> Prices are approximate and may vary depending on seller, quantity, shipping, taxes, and promotions.
-
-
-Check the mounting hole diameter on your PCB before ordering screws — M3 is assumed here but confirm it matches your board.
+**≈ $56.18 USD** (Not including shipping)
 
 ## Wiring
 
@@ -64,14 +60,12 @@ Check the mounting hole diameter on your PCB before ordering screws — M3 is as
 | RST | D1 |
 | BUSY | D0 |
 
-**Notice** : BME680 SDO tied to GND sets its I2C address to 0x76. BME680 CS tied to 3V3
-forces the module into I2C mode.
+**Notice** : BME680 SDO is conected to GND which sets its I2C address to 0x76. BME680 CS is connected to 3V3
+which forces the module into I2C mode.
 
-## How to Build
-
-### 1. Assemble the hardware and firmware
+## Assemble the hardware and firmware
 1. Fabricate the PCB from the KiCad project (or wire the parts manually on protoboard using the wiring table above).
-2. Solder the XIAO ESP32-C6, the BME680 module (directly onto its PCB pads — no cable needed), and the JST PH 2.0mm 8-pin SMT header onto the board.
+2. Solder the XIAO ESP32-C6, the BME680 module (directly onto its PCB pads), and the JST PH 2.0mm 8-pin SMT header onto the board.
 3. Connect the Waveshare 2.9" e-Paper display to the JST PH header using the JST PH 2.0mm cable.
 4. Mount the board using the 4 mounting holes, M3 screws, standoffs and nuts.
 5. Use Arduino IDE and download all the libraries
